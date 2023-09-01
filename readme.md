@@ -26,7 +26,7 @@ A dynamic web-based quiz application aimed at helping coding enthusiasts validat
 
 ## Installation
 
-1. Clone the repository from [GitHub](your-repository-link).
+1. Clone the repository from [GitHub] (https://github.com/charleshuurman/challenge4.3).
 2. Navigate to the project directory.
 3. Open `index.html` in your preferred browser.
 4. Ensure you have the linked `styles.css` and `script.js` files in the same directory.
@@ -35,12 +35,13 @@ A dynamic web-based quiz application aimed at helping coding enthusiasts validat
 
 To get started with the Coding Quiz:
 
-1. Launch the `index.html` file in your browser.
-2. Click the "Start Quiz" button.
-3. Answer each question by clicking on your chosen answer.
-4. Upon completion, enter your initials and see where you rank on the high scores list!
-
-    ![Coding Quiz Screenshot](assets/images/screenshot.png)
+1. Launch the `index.html` file in your browser by visiting this link: (https://charleshuurman.github.io/challenge4.3/).
+       <img width="1678" alt="image" src="https://github.com/charleshuurman/challenge4.3/assets/121253296/541ea106-9b80-4332-b9bb-fe3f27b531b6">
+3. Click the "Start Quiz" button.
+4. Answer each question by clicking on your chosen answer.
+     <img width="1674" alt="image" src="https://github.com/charleshuurman/challenge4.3/assets/121253296/b917febb-a5c2-45c0-80a8-e107cef3f46f">
+6. Upon completion, enter your initials and see where you rank on the high scores list!
+   <img width="1662" alt="image" src="https://github.com/charleshuurman/challenge4.3/assets/121253296/cdf94943-bea2-42da-b59d-0b670a5d6532">
 
 ## License
 
