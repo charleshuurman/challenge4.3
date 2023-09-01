@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Nav. Bar -->
+<nav>
+    <a href="#" id="view-highscores">View High Scores</a>
+    <span id="timer">Time: 0</span>
+</nav>
+
+<!-- Start Screen -->
+<div id="start-quiz" class="centered1">
+    <h1>Coding Quiz Challenge</h1>
+    <p>Try to answer the code-related questions...</p>
+    <button id="start-button">Start Quiz</button>
+</div>
+
+<!-- Question Screens -->
+<!-- Display questions sequentially -->
+<div id="question1" class="centered question">
+    <h2>Commonly used data types DO Not include:</h2>
+    <button data-answer="false">1. strings</button>
+    <button data-answer="true">2. booleans</button>
+    <button data-answer="false">3. alerts</button>
+    <button data-answer="false">4. numbers</button>
+    <h2 class="feedback"></h2>
+</div>
+
+<div id="question2" class="centered question">
+    <h2>The condition in an if/else statement is enclosed with:</h2>
+    <button data-answer="false">1. quotes</button>
+    <button data-answer="true">2. curly brackets</button>
+    <button data-answer="false">3. parenthesis</button>
+    <button data-answer="false">4. square brackets</button>
+    <h2 class="feedback"></h2>
+</div>
+
+<div id="question3" class="centered question">
+    <h2>Arrays in JavaScript can be used to store:</h2>
+    <button data-answer="false">1. Numbers and strings</button>
+    <button data-answer="false">2. Other arrays</button>
+    <button data-answer="false">3. Booleans</button>
+    <button data-answer="true">4. All of the above</button>
+    <h2 class="feedback"></h2>
+</div>
+
+<!-- Score & High Scores Screens -->
+<div id="results" class="centered">
+    <h1>All Done!</h1>
+    <h2>Your score is: <span id="final-score"></span></h2>
+    <p>Enter initials: <input type="text" id="initials"><button id="submit-score">Submit</button></p>
+</div>
+
+<div id="viewscores" class="centered">
+    <h1>High scores</h1>
+    <ol id="highscore-list"></ol>
+    <button id="goback">Go Back</button>
+    <button id="clearscores">Clear High Scores</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
